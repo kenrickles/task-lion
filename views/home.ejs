@@ -1,0 +1,69 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      ="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
+    <!-- my style sheet -->
+    <link rel="stylesheet" href="/stylesheets/home.css"/>
+
+    <title>Task Lion</title>
+  </head>
+  <body>
+    <div>
+      <nav class="navigation-bar">
+        <div class="navigation-bar-left">
+          <a href="/home">
+            <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA1VBMVEX///8AgAAAfgAAfAAAegDz+vOJvIkAgQAAeAAAgwBnpWeGw4b6/fr9//0AhAD3/Pfn8+fu9+4RgxHV6dXs8+xGnEa73rsAiADf7t9orGjO5M5Xo1es06zh7+GjyaN8vXwymTI8lzyZx5nG48YxkDG817xRo1GQv5Cl0KWFu4UeiB602LRzsXN5tHnc6Ny127Udjx2It4hXn1dCn0KUypScw5zI3shdq11Gl0ZcoVyLw4tzt3MhlCGex55vqm95rnlkrmRIokity606oDo2jTZTqlMAjwDs/DXxAAAR4UlEQVR4nN1deV/aSheGmQBBAwlEIASQfYcrrVQRtEVr+/0/0gsKJCQzk3OySd/nj/5ue5Mhz6xnn0TCP3KKqhrl5br5gfVoat4oipIL0OJFIaX913l8JrIsSfQDkiTLcub5z3j6X6OgfvXnBYbxMG7tqJGkE4RSmSwG6Qez8S+z1F9qWQY7iyaR6KI2nJoFaIuqZujmHrqhpaL8dBg6qyTl0zuxpNn2z2HZk6RRHg2//bqq1VbtdrtUq1V/fht26t1GHEw4WGcEw+eYspne93GZv/do9fnVqldM7pYxOWH33/lJb3U173SVGGlZMCZQgp9DmZm0r5kDoo4G75PMjhL7PZIsTt4fl18wlqMMguBhKKVW3bHvKN0/hLLJnfGkdNHUYz6BRliCH58qV5q6tSS1ekvyXsrH/vl4N8YJa6LH8BNS5rFvfAxG460lYWb6fhLcv+jgjTkwNpI/irv9ZHBr5rT+AMfvQHIxe9NjYqgt8B94/M5kKT3L+nydZgfDbjwU69AlxOLoubsIX27PyzEQXPb8f2NQkOSkFjXHaSvIKIRBkrQi5KjojyJ5NC6OcushIrHe6FQCLMEQQcj2IQIBXemXfGzzEYFmxw9hCwHG8EIG8ADaS4d7PvZryYsZwE+Q5KoT3nJU0yiNIiaQzFNYIkDh9QL57UGy81DE1W7+olbgGaRKOfBUTY0u4Azkg0hbLRhBbf7VHLwgtfpBpqpR/WoC3titRv8Hh15jNLg3AMc7cT1/cjX1aekw265mJam1bTYffyfluEhSufJ7u24+PgssH2Sy8bXh6HknCyl7ranKDqpSv5dikOKIlHnspvY/qarGVuZyJMmW4YOga2JkZ3aBV2tOouaX7C3tY6O9Cp6lHSxB0zWCk7qzD2aRyjqk13SoEMpY8INkgzs3zJ6zrcXU/dR0FZk0QLIMoUztFAUUayZiw9FLzpbYs0Cf5xk/RZFgfXUvzRqSwlxgzqTtOphio+YiOGArZN2Kk51UuX+cjdNgjOfb14pr2yJt9iFnrERur+IYSLGwdb0ss3+wvDrrU0pb877R0AopBAqFhmGuW+TcElussX+xU+Qz3OkbVZD2n1u7+om0mE+O7MuCSNLWTPmUhJWU0aycDSSZmKwHtXfh7ka2kA+oy64XpSXrwbVNLybJxXVAy4IyaiXPeoxpVnMtoHNk1t4/pDP2R/nB/Zx6JpX31mHoast3u39SGjGWVVPMkF55LsVCi9GEfON6LjW2liApzplTCo/G3H5MZUbuObcUMyRXXtM0N2e1ILt8lalx1urrttND6B9K3ybuk4mbohfDn16/MGXKYu5ZajuYSDWkAfxEY2zNVDK5dVIUz1JSZAgmZzDYC1lynvfXVpvZYUA124nUNGmj6NSMHkUMKel4bXcdzpt/zh8bWZ9QYayVoDAtJxxZnE8QVXDk0+TW8CL4wHUPntG4O52Duz4Om94exsLWhWdT5I6v0WSr3pOpMOO5eM8OREssJ72IXEGGZcKkf+29O+MTHAHa7Wd5r5OFtRy079YIRubr0ktW726tqcewO5w+8clbC1Yf+coQPfVQanxqsxLJFHVzOe1zylikW8w9hdIu/+2dsH/oIaV+WoSgeeEb3Ym1FvqHf3twqa12ZD21p1ehPnvQTHRrEQ6jjXOpW7tN7bN7C1XxYdjy2Gp0cSTJ51mqDI7dIM1CPgddaFoqwHC/2yics+wEuhE3+EdskiC9/cm0PHYDaYcqyTDxfPwiUtnP065nvJIkjIQreJmVaElPGKduZdltwoZWOX4TvTcSprcT0ymZnMNDpN330EC/Pz00jiHYLGfF0Ulpt/WPASI4MXID7wboqU95dpSQUdieVk4e5IYmTX5jXVwsENoA6w99pEmWlPiKeBoTdkhaMYWqq2Ok0dlltz4hd4VpSo4pim4/tZAU57yWdJEh0gnyHBfBnaqNnKbfead0fYFohm0FiwbIQeRrO0NMK6044+jFkpoL2Rd2M6lfCB8L08oXGe5EVm436Dd2Mxz7DBNkEWuWgIKbppSj6bu9aaI24osr32ODcuGRElte7iM2GvoWK8GE7vYyiBgu2CfZG6aJ6JWKczB8lALk+8xG3uBZBryJHh0ExhXW9zGnmDpEMPwRM0GWM0wA6ZbVRmoM76Z8DIrhOW5QaSx0yJKZC3MwQ9KLTSY9Qq1gzgs6Zm31WhXOcBBXfo7FEBXhSplRpwiG9CrujSahNDFbDXsnxDD8FTfBRK6DWYiBGRKO3Bcl+pjNNDDD5JD9FUoqdfMJnPqvpAqfrwnCOB6CMyzAT4ssi2HBeHip3j/ns9lspdVE5EPm9Ns/ld1r+UrrcdzXNbbS8l9whqk0mGHebYMq9GcLKh0ze4mU3EC3W+22In++ts/6lSuPt0xrII4hcy9VfoDXMoPhKOMITSMlRnQKi+DckQtH6YzlP8IxZJ6HCLk062Z47Y6hKkFG0fLTWS8+sXRPHMM008n2BrclutfhtfshsgGsxbr7R8n3wAwltksMoR+CGCap9zxl2RXIFatnUKeFxFZfBd5j56e7z8M71mOvng7ZN8buRpjyBIohYTOE22noL9eOXmBNcZGP5APMMzjD8hbgZBqOBgy3tVHGPGKpqOxwRht0RmQL2+GjXGPk0gWbYWIIrlnCCG3VWc+9ejDssybpmPWkKILC3QRPuxtBrZKkzWghzZhGFTFBhTH1KNsRr7LCJbnfx9Pu4MZzlvOXFWoki+XTlNtISCvstatyw3wY4Gp32hN4mrL2qsLclULDCQ0/veFSa6W/nDcM1IH/jedyAOfh0THzHJj2HE5aDw9c4ffZ4yRZdCaQnLDEbKWEayiDL0SORJZafu9liVX7woPhzfPJY05ocrIS5Nj9xhgx+GFMOngh5nniSq48/PVUai3yu3WTqSQ9xrC1fyyZz0/atZ/jusA0kkPwE8US5sAuUolprjugYZan9dsd6nWxZKqWD4+Vu7p4T7pDSTQr/lzYgLcar+CqkIEyeYsi2VnSJRs0VpuwjssC5Prxd9MGrEDF6wPGJVsXRcLiPXjLkmOKptnDFKcBOSGM6R3Bjx0S20pUZrhAhXfR/qYh/E+DuEo41nFBUaQmbA0h4JJ0PEFRJibMZ/9d18Lm1gjpqNiJw5mv17BpuOJIHwPTXHEe/VrsIkdwJ0qJpxYzbY2PUtTH4jU6V5yTCXqCOkY5Wwl5jtBZmlsu8KXTJPEy3K1rZIOyV4MBkLrykQkve4WJNFxJ6mJ4dlkghj7KGXhYTvYhGbh+uzSG9NGz2T4uOOfSGMrcAOETdEQA3wUyzHqHFOZw0xTEMKWX68vr5qZa3VY3m/VyVAaV+vbBkHh7EpChwp4MjdHmtTeZFIuZvWb2sflnMsVicTK533Y8tj0fDKUXgFYHNyp6MFS1zm8iS5ySz4RQSaata0PlxuL6YJgFuZ7TmCZ5DHON6Sv1rkFEJPn5hVeCH8+QDECRvWVMYgmHoXbbg5ZYItKiYzDHEc+QvoD0HRWzm3IYNjHFwAidMTcePEOOW82FNaJNDsMOKlqSslVNNMNjGqYnDERoPIchSkfh5THiGXJCmdyAG6S4O00Xcapm0uw20AzhCZEIEzOPodIBfx2Zcc4wLEN+OpAbcG8d9zwsQI2ctMb7LvQYMt3HbDTBejD/xNdERblsBFfc3QHLEFPdQQc3LZBpQHVByRNfCkEyJDWE8Q8edCySSwsdr7RWkpwLhBDsGALqQ1mYQqepUPJW++IK2TTfEakCSIZFVGlIA3rFg4duYQwERUClXleYAYdjSO4xBOHZF17akzLi9RVJNj00HRxD+Q7FMPFQ8W4TwnA3jMz6mKQ48LRD4hjmcQTBYd8QHb98VXQ0RorfASmaKIaSIA2fjVvYqQ+yYqijq7O5mn26hUgfuDFEZ7mYMMMp0BJVGNniPIprWAYqhiEdoD1hCixHHGprs5dDLQJlDwxDCagZ2lEHhQdcCEPip05y6juk/QthKAzw4WINkZwvg6HPtF0DMk29qhbFw5Bj6PEEJBIJ4AnxzbABWid7ZH16arsAVR8qDfphCDyweCkaEEAkt0l0DNllRhlgppqBAFH1izBZwg/DF6Axhbz7Lg+gQSxSsPAvHwxVcDZd1S/BhOJRv+2jA2FbjT3nKOOVh/EJcBLPJEC0BEDVJ++Qadqwx/2QHmhmQ8tYkIF/gqDbHHn2XDvUc4WacA2I9t/eAidpoIpVqTlgEAHOAme1Q8g1TfxKqo7fXwQguPsZwE9kOEWLLIxcN3MWPcP+UiXoEHrHJoigA1a7Z/G9qftKClJceuj4ayBB8hwsClT9BjgSibji0Ihpp/GwbnahApsctEbsFBJeI9Jdch3O5bGy6JgxoDfOkueg8ZEw2ZDe8gyDGt9UQPlOdwPsfqSQ4AshgHmX9IW5GpTuwP46Ob8sl7Sn7LcewAm7wKNVCKBwSMeMn9Lt914SibRqtV7WdqkMybIuVDizWnnBl25/jjLw58jAmQOkdwYnMlSqDIZ90zDM/o9txbp8i7TTzvO6PBPcBuT80V4IJbnAaiiZPHWsVa/ezVfH3WJ/79bU0A69rWh6f3u6boUk2z9H9teqmOpzJJQyuAiDV/F9sL7rmmZ5+fg+OXrWiPx3eZM6P/1StvvjCZm8167rptm9W25XE0xUcEjlnEQ10F0/aeH0L/eca+3MV9tDzteAmIVBEJ53yWKcWQksKN0BfMUxwb5LCI2u/+vj6IR57dYJaqcdhCAB2vm8YPi+S522PU1gJuMGSTAyIZUcU3GZY3aCgH0AU1PU2f42HIKJhE+GBGZcgCjZHPhwVbCBzss5gFm80A0TFeRnQQppFfpmCI4T9LqugAdAzDoQir9ZSoBDCDOtu0HDu1rD514KjxO8wdS8OMKXw5CDsr/zEH7Dzo2vvSbEm+OX/mQaxBgCA1vsEFUVQIN/vZIQGfA69Lj6hYnsMLx64sJrPwWA1xqGWn5tIPyQTTygDiAXMkA7JiZe+ogszPMBguYny/EDJAm6ElF0wxS36VWINe9HuGS9M0ibhoe1Vm2soWbDMyCD9EQwBn6H8INiJf3Ar/OZ0h+GLT/N0yDOJgfQN6C4PiZ7P//xVu6aut7QNE3XjY8/zW5/ejsuVYCZQ46nSIgV4esB5ujxcyjNLnqlWu3p6uppUHuqXlVrg1VvkWdfVc0CvT/7a4git+1mt6A0XcC8vNA3tiOTcAqe+UEBcoFU9CD1RO6v9SXyS3gb6X1kF8Nj8FE6zTj9lbyGd3kIKOorchxKBJ6SjKAJeBCwjGyxT1sy+WR0czi2iM8INiY0J0NC87WXkvsrIsVRgO9/iAYhX1qwsZRvQqi8960YiXKs/KTxUfJLdYoSlRb1UCtwFe5luoMky+R5MO7rnxnJgaQcLEFbqaaU2ZmnPSrX4SnWH/9sm8upcVOwCsLjbrUJBPp8tugUNabL7DY+NFZfCO6j94mUfxsujmAr9otCDsjV4yEIcQpEhALiogj/BHshHu1oiO9VDofg5CsJJpQh5j5PXwSzX0pwH74Q7Twl5OvW4AHlsDRHNsF83Pe6MYCpnYEmGPvFdSyo0QlvvOsL44aOuicMg8FlEEwkRtEwpI9fJcm4oABiwPGQt18ki7LQiGApypu4KtuCYIYtghN5HZN+BEU/XIokHyzsPgq8hErwS2VtDlK4WuJigt5FFr4C4NQdT0izizklztHw5R9zg44v6JQ4RyiyDcneXtQpcQ4zOEW6QFR4+gIEpvgFd9Mi0Q+kLJJ8DIXPg2IawG5DF50QAysiw9T3KFJRqPsloe9zLZJLPQXd6PqhSPLpOK5XCAmmuDQbC3TCSTa5UBhY6YaUQgy/iwWNLZdMxj2FSRFdnOvroc0ZTD7QvHJutqQUNH/3S5B64UTgqOp0ZteWSbb6z+yhDvQXrIs39zUBCn1L0SKTWK6oiQZmjXHz5p+P/6XVD5GWtP1wYeYYFLSxK+hGOqTe58xnaW9uglz2fMnI1Z0z1SrNoW0qyed/REwTwaieB/5Kcd5CFxM69kwi8verPycKdGdWQc/DRvP/hlS9dtxx5BBTBy4KRudzxyGVf/Vw94RqbGSJypX6P6VA4JAzrpud8EJ6feF/67NxibGDWv4AAAAASUVORK5CYII="
+            border="0"
+            height="50"
+            width="70"
+          /></a>
+      <div class="navigation-bar-right">
+        <span>
+          <!-- <a href="/login">Log In</a> -->
+        </span>
+        <span>
+          <!-- <a href="/register">Register</a> -->
+        </span>
+      </div>
+    </nav>
+    </div>
+      <div class="splash-hero">
+        <div class="splash-hero-container">
+          <div class="splash-hero-slogan">
+            <p>Get things done easily now! From assmebly of items to Electrical repairs! You name it, a lion does it!</p>
+          </div>
+          
+          <div class="splash-hero-sub-slogan">
+            <p>Choose from over 5,000 background checked Taskers for help without breaking the bank.</p>
+          </div>
+
+          <div class="splash-hero-cats">
+            <a href="dashboard"><button>Furniture Assembly</button></a>
+            <a href="dashboard"><button>Electrical Repairs</button></a>
+            <a href="dashboard"><button>Delivery</button></a>
+            <a href="dashboard"><button>Computer</button></a>
+          </div>
+        </div>
+      </div>
+     <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

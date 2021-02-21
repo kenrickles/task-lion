@@ -1,0 +1,142 @@
+body {
+  margin: 30px 30px;
+  background-color: white;
+  font-family: "Raleway";
+}
+.task-container {
+  height: auto;
+  min-height: 250px;
+  border-style: groove;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  flex: auto;
+  margin: 20px;
+  border-color: lightgreen;
+}
+.button-div {
+  margin-top: 40px;
+  margin-left: 500px;
+}
+.input-field {
+  font-weight: normal;
+  font-size: 20px;
+  border: 1px solid #b1b9c3;
+  border-radius: 4px;
+  vertical-align: middle;
+  min-height: 46px;
+  padding: 0.625em 1em;
+}
+.h3-title {
+  color: #545e69;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.div-margin {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.margin-input {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.category-input {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #74c69d;
+  background-image: none;
+  flex: 1;
+  padding: 0 10px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  font-family: "Open Sans", sans-serif;
+}
+select::-ms-expand {
+  display: none;
+}
+.select {
+  position: relative;
+  display: flex;
+  width: 300px;
+  height: 50px;
+  line-height: 3;
+  background: #2d6a4f;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 20px;
+  background: #74c69d;
+  cursor: pointer;
+  pointer-events: none;
+  transition: 0.25s all ease;
+}
+.select:hover::after {
+  color: #50a999;
+}
+
+.button-save {
+  background-color: #23b499;
+  border-radius: 10px;
+  border-color: lightgreen;
+  color: white;
+}
+.button-save:hover::after {
+  background-color: #23b499;
+}
+* {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.stepper-container-horizontal {
+  border: 1px solid rgb(20, 247, 58);
+  box-shadow: 0 0 13px #333;
+  border-radius: 3px;
+  margin: 30px auto;
+  padding: 30px;
+  width: 84%;
+}
+
+.stepper-container-vertical {
+  border: 1px solid lightsalmon;
+  box-shadow: 0 0 13px #333;
+  border-radius: 3px;
+  margin: 40px auto;
+  padding: 30px;
+  width: 15%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.buttons-container {
+  text-align: center;
+
+  button {
+    margin: 0 2rem;
+    width: 100px;
+    padding: 4px;
+    background-color: lightsalmon;
+    border: none;
+  }
+}
